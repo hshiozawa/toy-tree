@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/hshiozawa/toy-tree/issues"
   },
-  "homepage": "https://github.com/hshiozawa/toy-tree#readme"
+  "homepage": "https://github.com/hshiozawa/toy-tree#readme",
+  "dependencies": {
+    "meow": "^7.1.1"
+  },
+  "bin": {
+    "toy-tree": "src/bin.js"
+  }
 }
